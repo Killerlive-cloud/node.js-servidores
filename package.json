@@ -1,0 +1,16 @@
+{
+    "name": "ejercicioservidor",
+    "version": "1.0.0",
+    "description": "Ejercicios de node.js",
+    "main": "index.js",
+    "scripts": {
+        "start:server": "nodemon server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^1.19.2"
+    }
+}
